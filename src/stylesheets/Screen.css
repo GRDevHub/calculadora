@@ -1,0 +1,12 @@
+.screen{
+    background-color: var(--screen);
+    width: 100%;
+    min-height: 110px;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-inline: 1rem;
+}

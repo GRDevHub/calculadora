@@ -1,0 +1,19 @@
+input:not(.theme){
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    outline: 1px solid var(--box-shadow);
+    transition: transform .2s ease-in-out;
+}
+
+input:not(.theme):hover{
+    transform: scale(1.1);
+}
+
+/* [type="radio"]{
+    width: 20px;
+    height: 20px;
+} */
