@@ -33,7 +33,7 @@
   --btn-equal: #343434;
   --btn-operator: #343434;
   --btn-erase: #343434;
-  --box-shadow: #000;
+  --box-shadow: #fff;
   --color: #000;
 }
 
@@ -59,11 +59,12 @@ body{
   position: relative;
   background-color: var(--background);
   min-width: 200px;
+  max-width: 312px;
   min-height: 300px;
   border-radius: 10px;
   overflow: hidden;
   padding-block-start: 3rem;
-
+  border: 2px solid var(--color);
   box-shadow: 0 0 30px -10px var(--box-shadow);
 }
 
@@ -167,7 +168,9 @@ body{
 
 .btn-0{
   background-color: var(--btn-numbers);
-  grid-column: 2/3;
+  width: 100% !important;
+  border-radius: 50px !important;
+  grid-column: 2/4;
   grid-row: 5/6;
 }
 

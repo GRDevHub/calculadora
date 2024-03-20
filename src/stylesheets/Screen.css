@@ -1,12 +1,15 @@
 .screen{
     background-color: var(--screen);
-    width: 100%;
-    min-height: 110px;
+    width: 95%;
+    min-height: 80px;
     
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
     align-items: center;
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: bold;
     padding-inline: 1rem;
+    margin-inline: auto;
+    overflow: hidden;
+    border-radius: 5px;
 }

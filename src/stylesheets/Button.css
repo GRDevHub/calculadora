@@ -9,11 +9,10 @@ input:not(.theme){
     transition: transform .2s ease-in-out;
 }
 
+input:active{
+    opacity: .8;
+}
+
 input:not(.theme):hover{
     transform: scale(1.1);
 }
-
-/* [type="radio"]{
-    width: 20px;
-    height: 20px;
-} */
