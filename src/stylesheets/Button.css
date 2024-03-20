@@ -6,13 +6,13 @@ input:not(.theme){
     font-size: 1.2rem;
     font-weight: 700;
     outline: 1px solid var(--box-shadow);
-    transition: transform .2s ease-in-out;
+    transition: transform .1s ease-in-out, box-shadow .2s ease-in-out;
 }
 
 input:active{
-    opacity: .8;
+    transform: scale(.9);
 }
 
 input:not(.theme):hover{
-    transform: scale(1.1);
+    box-shadow: 0 0 2px 3px #fff;
 }

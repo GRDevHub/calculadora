@@ -14,12 +14,14 @@ function App() {
 
   // Manejar Temas
   const handleClick = (val) => {
-    setTheme(val);
+      setTheme(val);
   }
 
   // Concatenar caracteres en el input
   const addInput = val => {
+    if(input || (val !== '*' && val !== '/' && val !== '+')){
       setInput(input + val);
+    }
   };
 
   // Borrar datos del input
@@ -55,7 +57,7 @@ function App() {
           </div>
 
           <Screen input={ input }/>
-          
+
           <div className='keyboards'>
               <Button type='button' func={ addInput } clase='btn-plus'>+</Button>
               <Button type='button' func={ addInput } clase='btn-less'>-</Button>
